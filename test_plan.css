@@ -1,0 +1,198 @@
+.map-marker {
+    position: absolute;
+    font-size: 35px;
+    text-shadow: 1px 1px 1px #000;
+    color: rgb(0, 0, 0);
+}
+
+#one {
+    top: 11%;
+    left: 6.3%;
+}
+
+#one:after {
+    content: "\f111";
+    font-family: 'FontAwesome';
+}
+
+#two {
+    top: 11%;
+    left: 17.5%;
+}
+
+#two:after {
+    content: "\f111";
+    font-family: 'FontAwesome';
+}
+
+#three {
+    top: 11%;
+    left: 28.5%;
+}
+
+#three:after {
+    content: "\f111";
+    font-family: 'FontAwesome';
+}
+
+#four {
+    top: 11%;
+    left: 39.7%;
+}
+
+#four:after {
+    content: "\f111";
+    font-family: 'FontAwesome';
+}
+
+#five {
+    top: 11%;
+    left: 52.5%;
+}
+
+#five:after {
+    content: "\f111";
+    font-family: 'FontAwesome';
+}
+
+#six {
+    top: 28%;
+    left: 6.2%;
+}
+
+#six:after {
+    content: "\f111";
+    font-family: 'FontAwesome';
+}
+
+#seven {
+    top: 28%;
+    left: 17.3%;
+}
+
+#seven:after {
+    content: "\f111";
+    font-family: 'FontAwesome';
+}
+
+#eight {
+    top: 28%;
+    left: 28.5%;
+}
+
+#eight:after {
+    content: "\f111";
+    font-family: 'FontAwesome';
+}
+
+#nine {
+    top: 28%;
+    left: 39%;
+}
+
+#nine:after {
+    content: "\f111";
+    font-family: 'FontAwesome';
+}
+
+#ten {
+    top: 11%;
+    left: 16%;
+}
+
+#ten:after {
+    content: "\f111";
+    font-family: 'FontAwesome';
+}
+
+#eleven {
+    top: 11%;
+    left: 16%;
+}
+
+#eleven:after {
+    content: "\f111";
+    font-family: 'FontAwesome';
+}
+
+#twelve {
+    top: 11%;
+    left: 16%;
+}
+
+#twelve:after {
+    content: "\f111";
+    font-family: 'FontAwesome';
+}
+
+#thirteen {
+    top: 11%;
+    left: 16%;
+}
+
+#thirteen:after {
+    content: "\f111";
+    font-family: 'FontAwesome';
+}
+
+#fourteen {
+    top: 11%;
+    left: 16%;
+}
+
+#fourteen:after {
+    content: "\f111";
+    font-family: 'FontAwesome';
+}
+
+#fiveteen {
+    top: 11%;
+    left: 16%;
+}
+
+#fiveteen:after {
+    content: "\f111";
+    font-family: 'FontAwesome';
+}
+
+#sixteen {
+    top: 11%;
+    left: 16%;
+}
+
+#sixteen:after {
+    content: "\f111";
+    font-family: 'FontAwesome';
+}
+
+#seventeen {
+    top: 11%;
+    left: 16%;
+}
+
+#seventeen:after {
+    content: "\f111";
+    font-family: 'FontAwesome';
+}
+
+#eighteen {
+    top: 11%;
+    left: 16%;
+}
+
+#eighteen:after {
+    content: "\f111";
+    font-family: 'FontAwesome';
+}
+
+.bleu {
+    color: blue;
+}
+
+.rouge {
+    color: red;
+}
+
+.markerchangement {
+    color: rgb(7, 122, 7);
+}

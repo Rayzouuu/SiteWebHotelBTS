@@ -1,0 +1,146 @@
+body {
+    background: #212121;
+    /*Couleur fond de la page*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Raleway', Arial, sans-serif;
+}
+
+#container {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+
+/* Bordered form */
+
+form {
+    width: 100%;
+    padding: 40px;
+    border: 5px solid #000000;
+    /*Couleur bordure ensemble du bloc connexion */
+    background: rgb(250, 250, 250);
+    /*Couleur  ensemble du bloc connexion */
+    box-shadow: 0 0 20px 10px rgb(0, 0, 0), 0 10px 45px 0 rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+#container h1 {
+    text-align: center;
+    margin-bottom: 20%;
+    background: rgb(255, 255, 255);
+    top: 100%;
+    display: block;
+    height: 3px;
+    background-color: #000000;
+}
+
+
+/* Full-width inputs */
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid rgb(0, 0, 0);
+    /*Couleur bordure bouton vide  mot de passe  et Nom utilisateur*/
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+
+/* Set a style for all buttons */
+
+input[type=submit] {
+    background-color: rgb(255, 255, 255);
+    /*Couleur Bouton Login*/
+    color: rgb(0, 0, 0);
+    /*Couleur Login*/
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 3px solid rgb(0, 0, 0);
+    ;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 20px;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(255, 255, 255);
+    /*Couleur Bouton Login effet passage souris dessus*/
+    color: #000000;
+    /*Couleur ecriture login quand on passe dessus */
+    border: 3px solid #000000;
+    /*Couleur Bordure Bouton Login effet passage souris dessus*/
+    box-shadow: 0 0 15px 2px rgb(0, 0, 0), 0 10px 45px 0 rgb(255, 255, 255);
+}
+
+img {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:link
+/*Texte Clickable */
+
+{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c0392b;
+    /* pour le passage de la souris*/
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* Mot de passe cachés*/
+
+label {
+    position: relative;
+}
+
+label input {
+    font-size: 1em;
+    color: #000000;
+    background: transparent;
+    padding: 1rem 1.2rem;
+    width: 350px;
+    border-radius: 5px;
+    border: 2px solid #7a7a7a;
+    transition: all 0.2s;
+}
+
+label input:focus {
+    border-color: #ffffff;
+}
+
+label .password-icon {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 60.1%;
+    right: 18%;
+    width: 25px;
+    transition: all 0.2s;
+}
+
+label .password-icon:hover {
+    cursor: pointer;
+    color: #ff4754;
+}
+
+label .password-icon .feather-eye-off {
+    display: none;
+}
