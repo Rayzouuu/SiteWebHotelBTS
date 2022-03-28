@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "Tirette",
+			"path": "..\\..\\..\\..\\Users\\bts\\Documents\\PlatformIO\\Projects\\Tirette"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Site WEB Hotel Projet"
+	}
+}

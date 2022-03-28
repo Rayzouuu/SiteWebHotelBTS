@@ -1,0 +1,30 @@
+table {
+    border-collapse: collapse;
+    box-shadow: 20px 20px 20px 5px;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+th {
+    padding: 0.75rem 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 0.7rem;
+    font-weight: 900;
+    background-color: #212121;
+    color: white;
+}
+
+td {
+    padding: 1rem 2rem;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: start;
+    align-content: center;
+}

@@ -1,0 +1,196 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+.snip1143 {
+    font-family: 'Raleway', Arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.snip1143 * {
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+
+.snip1143 li {
+    display: inline-block;
+    list-style: outside none none;
+    margin: 0 1.5em;
+    overflow: hidden;
+}
+
+.snip1143 a {
+    padding: 0.3em 0;
+    color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    display: inline-block;
+    letter-spacing: 1px;
+    margin: 0;
+    text-decoration: none;
+}
+
+.snip1143 a:before,
+.snip1143 a:after {
+    position: absolute;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+
+.snip1143 a:before {
+    top: 100%;
+    display: block;
+    height: 3px;
+    width: 100%;
+    content: "";
+    background-color: #c0392b;
+}
+
+.snip1143 a:after {
+    padding: 0.3em 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    content: attr(data-hover);
+    color: white;
+    white-space: nowrap;
+}
+
+.snip1143 li:hover a,
+.snip1143 .current a {
+    transform: translateY(-100%);
+}
+
+
+/* Demo purposes only */
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 90vh;
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+}
+
+.dropdown-content a {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-top: 35%;
+    margin-right: 15%;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    color: rgb(240, 240, 240);
+}
+
+.dropdown-content a:hover {
+    background-color: #212121;
+}
+
+.dropdown {
+    display: flex;
+}
+
+
+/* Plan hotel */
+
+.box_imgmap {
+    position: relative;
+}
+
+img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.name_etage {
+    font-family: 'Raleway', Arial, sans-serif;
+    padding: 0.3em 0;
+    color: #ffffff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: auto;
+}
+
+.lol {
+    display: inline-block;
+    list-style: outside none none;
+    margin: 0 1.5em;
+    overflow: hidden;
+}
+
+.stroke_red {
+    padding: 1px;
+    height: 1px;
+    width: 200px;
+    background-color: #c0392b;
+}
+
+#point_rouge {
+    z-index: 100;
+    background-color: rgb(72, 255, 0);
+    border-radius: 80%;
+    width: 200px;
+    height: 200px;
+}
+
+.form {
+    border: 2px;
+}
+
+.message {
+    font-family: 'Raleway', Arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.message li {
+    display: inline-block;
+    list-style: outside none none;
+    margin: 0 1.5em;
+    overflow: hidden;
+}
+
+#point_bleu {
+    z-index: 100;
+    background-color: rgb(9, 40, 179);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.dots {
+    position: relative;
+    display: inline-block;
+}
+
+.dots:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(http://www.uiueux.com/wp/flowfolio/wp-content/themes/flowfolio/img/bg_mask.png);
+}
+
+.circle {
+    overflow: auto;
+    width: 20px;
+    height: 30px;
+}

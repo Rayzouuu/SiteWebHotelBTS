@@ -1,0 +1,19 @@
+
+
+Selecitonner que la partie de la chambre
+SELECT `EtatChambre` FROM `chambre` 
+
+Selecitonner que les chambres qui ont comme Etat Fait
+SELECT `EtatChambre` FROM `chambre` WHERE `EtatChambre`= 'Fait'
+
+Selecitonner que les chambres qui ont comme Etat Non Fait
+SELECT `EtatChambre` FROM `chambre` WHERE `EtatChambre`= 'Non Fait'
+
+Selecitonner que les Etats des chambres et leurs ID
+SELECT `IDChambre`,`EtatChambre` FROM `chambre` 
+
+Selecitonner que les Etats ou les chambres sont en Fait avec leurs ID respectives
+SELECT `IDChambre`,`EtatChambre`FROM `chambre` WHERE `EtatChambre` = 'Fait' 
+
+Selectionner que les Etats ou les chambres sont en  Non Fait avec leurs ID respectives
+SELECT `IDChambre`,`EtatChambre`FROM `chambre` WHERE `EtatChambre` = 'Non Fait' 
